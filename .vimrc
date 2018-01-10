@@ -12,6 +12,7 @@ set tabstop=4
 set autoindent
 set incsearch
 set t_Co=256
+set wildmode=list:longest
 autocmd BufWritePost *.cpp,*.h,*.c call AutoTags()
 
 "if has("autocmd")
